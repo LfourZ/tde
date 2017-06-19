@@ -108,6 +108,7 @@ function Tower:draw()
 		local mx, my = love.mouse.getPosition()
 		local _, _, wx, wy = camera:getWindow()
 		if mx < wx and my < wy then
+			mx, my = mx / windowScale, my / windowScale
 			self.x, self.y = mx, my
 		end
 		if self:canPlace() then

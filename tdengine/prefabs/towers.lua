@@ -1,6 +1,5 @@
 return {
 	tanko = {
-		resolution = 64,
 		buildable = true,
 		radius = 28, --This is used for hitbox detection.
 		range = 200, --Obvious
@@ -13,7 +12,6 @@ return {
 		end,
 	},
 	areo = {
-		resolution = 64,
 		buildable = true,
 		radius = 32,
 		range = 100,
